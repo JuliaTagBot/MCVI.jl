@@ -22,12 +22,12 @@
         }, 
         {
             "location": "/solver/", 
-            "text": "Solver\n\n\nSolver Options are controlled throught the MCVISolver keyword constructor:\n\n\n#\n\n\nMCVI.MCVISolver\n \n \nMethod\n.\n\n\nHyperparameters:\n\n- `n_iter`          : Number of iterations\n- `num_particles`   : Number of belief particles to be used\n- `obs_branch`      : Branching factor [default 8?]\n- `num_state`       : Number of states to sample from belief [default 500?]\n- `num_prune_obs`   : Number of times to sample observation while pruning alpha edges [default 1000?]\n- `num_eval_belief` : Number of times to simulate while evaluating belief [default 5000?]\n- `num_obs`         : [default 50?]", 
+            "text": "Solver\n\n\nSolver Options are controlled throught the MCVISolver keyword constructor:\n\n\n#\n\n\nMCVI.MCVISolver\n \n \nMethod\n.\n\n\nHyperparameters:\n\n\n\n\nn_iter\n          : Number of iterations\n\n\nnum_particles\n   : Number of belief particles to be used\n\n\nobs_branch\n      : Branching factor [default 8?]\n\n\nnum_state\n       : Number of states to sample from belief [default 500?]\n\n\nnum_prune_obs\n   : Number of times to sample observation while pruning alpha edges [default 1000?]\n\n\nnum_eval_belief\n : Number of times to simulate while evaluating belief [default 5000?]\n\n\nnum_obs\n         : [default 50?]", 
             "title": "Solver"
         }, 
         {
             "location": "/solver/#solver", 
-            "text": "Solver Options are controlled throught the MCVISolver keyword constructor:  #  MCVI.MCVISolver     Method .  Hyperparameters:\n\n- `n_iter`          : Number of iterations\n- `num_particles`   : Number of belief particles to be used\n- `obs_branch`      : Branching factor [default 8?]\n- `num_state`       : Number of states to sample from belief [default 500?]\n- `num_prune_obs`   : Number of times to sample observation while pruning alpha edges [default 1000?]\n- `num_eval_belief` : Number of times to simulate while evaluating belief [default 5000?]\n- `num_obs`         : [default 50?]", 
+            "text": "Solver Options are controlled throught the MCVISolver keyword constructor:  #  MCVI.MCVISolver     Method .  Hyperparameters:   n_iter           : Number of iterations  num_particles    : Number of belief particles to be used  obs_branch       : Branching factor [default 8?]  num_state        : Number of states to sample from belief [default 500?]  num_prune_obs    : Number of times to sample observation while pruning alpha edges [default 1000?]  num_eval_belief  : Number of times to simulate while evaluating belief [default 5000?]  num_obs          : [default 50?]", 
             "title": "Solver"
         }
     ]

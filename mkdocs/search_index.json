@@ -1,0 +1,34 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MCVI\n\n\n \n\n\nThe Monte Carlo Value Iteration (MCVI) offline solver for \nPOMDPs.jl\n.\n\n\nDescribed in\n\n\nBai, H., Hsu, D., \n Lee, W. S. (2014). Integrated perception and planning in the continuous space: A POMDP approach. \nThe International Journal of Robotics Research\n, 33(9), 1288-1302.\n\n\n\n\nInstallation\n\n\nPkg.clone(\nhttps://github.com/JuliaPOMDP/MCVI.jl\n)\n\n\n\n\n\n\nDocumentation\n\n\nBehavior is controlled using \nsolver options\n.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#mcvi", 
+            "text": "The Monte Carlo Value Iteration (MCVI) offline solver for  POMDPs.jl .  Described in  Bai, H., Hsu, D.,   Lee, W. S. (2014). Integrated perception and planning in the continuous space: A POMDP approach.  The International Journal of Robotics Research , 33(9), 1288-1302.", 
+            "title": "MCVI"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "Pkg.clone( https://github.com/JuliaPOMDP/MCVI.jl )", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/#documentation", 
+            "text": "Behavior is controlled using  solver options .", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/solver/", 
+            "text": "Solver\n\n\nSolver Options are controlled throught the MCVISolver keyword constructor:\n\n\n#\n\n\nMCVI.MCVISolver\n \n \nMethod\n.\n\n\nHyperparameters:\n\n- `n_iter`          : Number of iterations\n- `num_particles`   : Number of belief particles to be used\n- `obs_branch`      : Branching factor [default 8?]\n- `num_state`       : Number of states to sample from belief [default 500?]\n- `num_prune_obs`   : Number of times to sample observation while pruning alpha edges [default 1000?]\n- `num_eval_belief` : Number of times to simulate while evaluating belief [default 5000?]\n- `num_obs`         : [default 50?]", 
+            "title": "Solver"
+        }, 
+        {
+            "location": "/solver/#solver", 
+            "text": "Solver Options are controlled throught the MCVISolver keyword constructor:  #  MCVI.MCVISolver     Method .  Hyperparameters:\n\n- `n_iter`          : Number of iterations\n- `num_particles`   : Number of belief particles to be used\n- `obs_branch`      : Branching factor [default 8?]\n- `num_state`       : Number of states to sample from belief [default 500?]\n- `num_prune_obs`   : Number of times to sample observation while pruning alpha edges [default 1000?]\n- `num_eval_belief` : Number of times to simulate while evaluating belief [default 5000?]\n- `num_obs`         : [default 50?]", 
+            "title": "Solver"
+        }
+    ]
+}
